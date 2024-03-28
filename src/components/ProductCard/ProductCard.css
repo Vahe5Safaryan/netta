@@ -1,0 +1,31 @@
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.product-card img{
+    width: 100%;
+}
+.product-card .product-description{
+    padding: 10px;
+}
+.product-card .product-title{
+    font-size: 20px;
+    position: relative;
+    margin: 15px 0;
+}
+.product-card .product-title::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #446557;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.App {
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; /* For bold headings */
+}
+a, p {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.text-primary::before,
+.text-primary::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: calc(50% - 250px);
+  height: 3px;
+  background-color: #446557;
+}
+
+.text-primary::before {
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.text-primary::after {
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.text-primary {
+  text-align: center;
+  position: relative;
+  color: #446557;
+  letter-spacing: .5px;
+}
+
+.mt25{
+  margin-top: 25px;
+}
+.mt30{
+  margin-top: 30px;
+}
+.mt50{
+  margin-top: 50px;
+}
+.mb50{
+  margin-bottom: 50px;
+}
+.mt70{
+  margin-top: 70px;
+}
+.mt100{
+  margin-top: 100px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.flex {
+  display: flex;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.pa-3 {
+  padding: 3px
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-gap-5 {
+  gap: 25px;
+}
+
+
+
+.about-btn{
+  margin-top: 30px;
+}
+.btn-primary{
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  background: #446557;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.btn-primary:hover{
+  background: #ccc;
+  border: 1px solid #333;
+  color: #000;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .grid-md-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .grid-md-1 {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+  .grid-sm-1 {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

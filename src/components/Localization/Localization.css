@@ -1,0 +1,19 @@
+img.selected {
+    outline: 2px solid #fff;
+    border-radius: 50%;
+}
+.locals{
+    margin-left: 15px;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1024px)  {
+    .locals{
+        margin-left: 0;
+        cursor: pointer;
+        column-gap: 25px;
+        margin-top: 20px;
+    }
+}
