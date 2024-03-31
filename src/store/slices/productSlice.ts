@@ -29,7 +29,7 @@ const initialState: TCategoryState = {
                 name: 'Չափ',
                 value: '0.33',
             }],
-            img: 'http://aparantan.am/Images/1597304435_home3.jpg'
+            img: 'https://brand.am/gi/5852887400115-Aparan-Tan-0.2l.jpg'
         },
         {
             id: 2,
@@ -40,7 +40,7 @@ const initialState: TCategoryState = {
                 name: 'Չափ',
                 value: '0.5',
             }],
-            img: 'http://aparantan.am/Images/1597304393_home1.jpg'
+            img: 'https://upload.wikimedia.org/wikipedia/commons/8/81/Aparan_Reservoir%2C_%D5%8E%D4%B1%D5%8D_02.jpg'
         },
         {
             id: 3,
@@ -51,7 +51,7 @@ const initialState: TCategoryState = {
                 name: 'Չափ',
                 value: '1',
             }],
-            img: 'http://aparantan.am/Images/1597304415_home2.jpg'
+            img: 'https://mamul.am/images/photos/160309/citrusi-charashahumy-n80986-1.jpg'
         },
         {
             id: 4,
@@ -62,7 +62,7 @@ const initialState: TCategoryState = {
                 name: 'Չափ',
                 value: '1.5',
             }],
-            img: 'http://aparantan.am/Images/1597304415_home2.jpg'
+            img: 'https://mamul.am/images/photos/160309/citrusi-charashahumy-n80986-1.jpg'
         },
         {
             id: 5,
@@ -73,7 +73,7 @@ const initialState: TCategoryState = {
                 name: 'Չափ',
                 value: '2',
             }],
-            img: 'http://aparantan.am/Images/1597304415_home2.jpg'
+            img: 'https://mamul.am/images/photos/160309/citrusi-charashahumy-n80986-1.jpg'
         }
     ]
 }

@@ -63,4 +63,7 @@
     .home-page .about-img img{
         width: 100%;
     }
+    .about-img{
+        margin-right: 0;
+    }
 }

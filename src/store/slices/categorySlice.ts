@@ -18,13 +18,13 @@ const initialState: TCategoryState = {
             id: 1,
             title: 'ԱՊԱՐԱՆ ԹԱՆ',
             slug: 'aparantan',
-            img: 'http://aparantan.am/Images/1597304435_home3.jpg'
+            img: 'https://brand.am/gi/5852887400115-Aparan-Tan-0.2l.jpg'
         },
         {
             id: 2,
             title: 'ՀԱՅ ՋՈՒՐ',
             slug: 'jur',
-            img: 'http://aparantan.am/Images/1597304393_home1.jpg'
+            img: 'https://upload.wikimedia.org/wikipedia/commons/8/81/Aparan_Reservoir%2C_%D5%8E%D4%B1%D5%8D_02.jpg'
         },
         {
             id: 3,
