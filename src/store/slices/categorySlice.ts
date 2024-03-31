@@ -30,7 +30,7 @@ const initialState: TCategoryState = {
             id: 3,
             title: 'ՀՅՈՒԹԵՐ',
             slug: 'hyuter',
-            img: 'http://aparantan.am/Images/1597304415_home2.jpg'
+            img: 'ttps://mamul.am/images/photos/160309/citrusi-charashahumy-n80986-1.jpg'
         }
     ]
 }
