@@ -60,4 +60,7 @@
     .about-description{
         margin-top: 15px;
     }
+    .home-page .about-img img{
+        width: 100%;
+    }
 }
