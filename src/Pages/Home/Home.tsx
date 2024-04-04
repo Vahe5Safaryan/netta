@@ -5,8 +5,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useTypedSelector } from "../../store/store";
-import "../../components/CategoryCartd/CategoryCard";
-import CategoryCard from "../../components/CategoryCartd/CategoryCard";
+import "../../components/CategoryCard/CategoryCard";
+import CategoryCard from "../../components/CategoryCard/CategoryCard";
 import About from "../About/About";
 import {useTranslation} from "react-i18next";
 

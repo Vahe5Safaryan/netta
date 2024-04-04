@@ -102,6 +102,9 @@ a, p {
   gap: 25px;
 }
 
+.full-width {
+  width: 100%;
+}
 
 
 .about-btn{

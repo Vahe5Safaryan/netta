@@ -10,6 +10,10 @@
 
 .category-card {
     width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .title::after {

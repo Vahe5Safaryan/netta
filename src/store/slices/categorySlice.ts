@@ -24,7 +24,7 @@ const initialState: TCategoryState = {
             id: 2,
             title: 'ՀԱՅ ՋՈՒՐ',
             slug: 'jur',
-            img: 'https://upload.wikimedia.org/wikipedia/commons/8/81/Aparan_Reservoir%2C_%D5%8E%D4%B1%D5%8D_02.jpg'
+            img: 'https://5.imimg.com/data5/TE/DM/MY-44148833/1-liter-mineral-water-bottles-500x500.jpg'
         },
         {
             id: 3,

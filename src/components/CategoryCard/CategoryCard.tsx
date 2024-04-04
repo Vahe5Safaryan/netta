@@ -6,7 +6,7 @@ import './CategoryCard.css'
 
 const CategoryCard = (category: TCategory) => {
     return (
-        <div>
+        <div className='full-width'>
             <Card>
                 <Link to={`/categories/${category.slug || category.id}`} className='category-card'>
                     <img className='category-image' src={category.img} alt={category.title}/>
