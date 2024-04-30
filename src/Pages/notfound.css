@@ -1,0 +1,26 @@
+.p-y-100{
+    padding: 100px 0 ;
+}
+
+.not-found{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.not-found h1 {
+    font-size: 70px;
+    color: #333;
+    font-style: italic;
+}
+.not-found h2 {
+    font-size: 40px;
+}
+.not-found h4 {
+    font-size: 20px;
+}
+.not-found p {
+    font-size: 15px;
+    font-weight: 600;
+    width: 300px;
+    margin: 0 auto;
+}

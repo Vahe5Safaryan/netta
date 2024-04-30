@@ -4,7 +4,7 @@ export type TSlider = {
     id: number | string,
     title?: string,
     description?: string,
-    img: string,
+    img?: string,
 }
 
 export type THomeState = {

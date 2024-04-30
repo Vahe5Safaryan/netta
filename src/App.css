@@ -74,10 +74,13 @@ a, p {
 .flex {
   display: flex;
 }
-
 .justify-end {
   justify-content: flex-end;
 }
+.justify-center {
+  justify-content: center;
+}
+
 
 .pa-3 {
   padding: 3px

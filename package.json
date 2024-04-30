@@ -21,7 +21,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
-    "typescript": "^5.4.2",
+    "typescript": "^5.4.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -29,7 +29,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
