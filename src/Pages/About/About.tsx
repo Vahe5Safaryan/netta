@@ -8,10 +8,11 @@ const About = ({ short = false, page }: { short?: boolean; page?: string }) => {
     const [text, setText] = useState('');
 
     useEffect(() => {
-        axios.get('/api.netta.am/api/about-us')
+        axios.get('https://api.netta.am/api/about-us')
             .then(response => {
                 const newText = response.data.description || '';
                 setText(newText);
+                console.log(response.data)
             })
             .catch(error => {
                 console.error('Ошибка при выполнении запроса:', error);

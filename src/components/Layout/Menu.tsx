@@ -1,7 +1,8 @@
 import {NavLink} from "react-router-dom";
 import {useTranslation} from "react-i18next";
-import React from "react";
+import React, {useEffect} from "react";
 import Localization from "../Localization/Localization";
+import axios from "axios";
 
 type TDynamicRoute = {
     id: string | number,
@@ -10,6 +11,17 @@ type TDynamicRoute = {
 }
 const Menu = ({dynamicRoutes}:{dynamicRoutes: TDynamicRoute[]}) => {
     const {t} = useTranslation();
+
+    // useEffect(() => {
+    //     axios.get('https://api.netta.am/api/about-us')
+    //         .then(response => {
+    //             const newText = response.data.description || '';
+    //             setText(newText);
+    //         })
+    //         .catch(error => {
+    //             console.error('Ошибка при выполнении запроса:', error);
+    //         });
+    // }, []);
 
     return <>
         <NavLink to="/"> {t('Home')} </NavLink>

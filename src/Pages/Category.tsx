@@ -14,7 +14,7 @@ const Category = () => {
     useEffect(() => {
         const fetchCategory = async () => {
             try {
-                const response = await axios.get(`/api.netta.am/api/init/${id}`);
+                const response = await axios.get(`https://api.netta.am/api/init`);
                 setCategory(response.data);
             } catch (error) {
                 console.error('Error fetching category:', error);
@@ -36,10 +36,6 @@ const Category = () => {
     )
 }
 export default Category;
-
-
-
-
 
 
 

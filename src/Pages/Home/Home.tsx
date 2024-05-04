@@ -24,7 +24,7 @@ const Arrow: React.FC<ArrowProps> = ({ className, style, onClick }) => (
         style={{ ...style, display: "block", }}
         onClick={onClick}
     />
-);
+)
 
 const Home = () => {
     const {t} = useTranslation();
@@ -65,7 +65,7 @@ const Home = () => {
             <div>
                 <div className="slider-container">
                     <Slider {...settings}>
-                        {sliders.map((item, index) => (
+                        {sliders.map((item, index) => (  //{ Todo : response.data.slider}
                             <div key={item.id} className='slider-item'>
                                 <img src={photoData} alt="Photo" />
                                 <div className={`slider-item-text ${currentSlide === index ? 'animate' : ''}`}>
@@ -79,7 +79,7 @@ const Home = () => {
 
             <div className='container'>
                 <div className="grid-3 grid-md-2 grid-sm-1 grid-gap-5 category-section mt50">
-                    {categories.map(category =>
+                    {categories.map(category =>  //{    Todo : response.data.categories}
                         (<CategoryCard {...category} key={category.id}/>)
                     )}
                 </div>
