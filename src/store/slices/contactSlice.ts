@@ -7,7 +7,7 @@ export type TContactState = {
 }
 
 const initialState: TContactState = {
-    email: 'company@examply.com',
+    email: 'info@netta.am',
     phone: '+374 (00) 00 00 00',
     address: 'Example street in Example city'
 }

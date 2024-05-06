@@ -1,7 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
 import homeReducer from './slices/homeSlice'
-import categoryReducer from "./slices/categorySlice";
-import productReducer from "./slices/productSlice";
 import aboutReducer from "./slices/aboutSlice";
 import contactReducer from "./slices/contactSlice";
 import {TypedUseSelectorHook, useSelector} from "react-redux";
@@ -10,8 +8,6 @@ import {TypedUseSelectorHook, useSelector} from "react-redux";
 const store =  configureStore({
     reducer: {
         home: homeReducer,
-        category: categoryReducer,
-        product: productReducer,
         about: aboutReducer,
         contact: contactReducer,
     }

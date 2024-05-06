@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 .App {
   text-align: center;
@@ -130,7 +131,6 @@ a, p {
   color: #fff;
 }
 
-
 @media screen and (max-width: 1024px) {
   .grid-md-2 {
     display: grid;
@@ -140,11 +140,17 @@ a, p {
     display: grid;
     grid-template-columns: auto;
   }
+  .slider-item img { 
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 768px)  {
   .grid-sm-1 {
     display: grid;
     grid-template-columns: auto;
+  }
+  .slider-item img { 
+    height: 320px;
   }
 }
